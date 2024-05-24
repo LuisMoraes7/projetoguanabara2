@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(83, 73, 73);
+}
+
+main p {
+    margin-top: 80px;
+    font-size: 2em;
+    font-weight: normal;
+    margin-left: 10px;
+    font-family: 'Sriracha';
+}
+header{
+    background-image: linear-gradient(to bottom, black, rgb(21, 17, 17));
+    width: 100%;
+    min-height: 180px;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    font-family: 'Passion One', sans-serif;
+}
+
+header h1{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 4em;
+}
+
+
+
+
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    margin: 20px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#fundo-joaninha{
+    background: black url(imagens/background001.jpg) left center no-repeat fixed;
+    background-size: cover;
+    box-shadow: 1px -1px 5px rgba(0, 0, 0, 0.377);
+    min-height: 600px;
+}
+
+section{
+    margin-top: 100px;
+}
+
+#fundo-letras{
+    position: relative;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.397);
+    max-height: 350px;
+    top: 80px;
+    left: 30px;
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+div > p{
+    color: white;
+    font-size: 1.7em;
+    margin-top: 0px;
+    height: 500px;
+    max-width: 450px;
+    width: 400px;
+}
+
+#fundo-letrasp{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.397);
+    max-height: 350px;
+    top: 80px;
+    left: 30px;
+    max-width: 450px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+}
